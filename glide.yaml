@@ -1,0 +1,8 @@
+package: github.com/imkuqin-zw/kafka
+import:
+- package: github.com/Shopify/sarama
+  version: ^1.16.0
+- package: github.com/golang/glog
+- package: github.com/wvanbergen/kafka
+  subpackages:
+  - consumergroup
